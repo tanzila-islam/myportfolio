@@ -1,0 +1,55 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto", sans-serif
+}
+.author-name{
+    font-family: 'Noto Serif', serif;
+}
+.w3-text-pink {
+    color: #d16b86 !important
+}
+
+.w3-text-pink:hover {
+    color: #d16b86 !important
+}
+
+.w3-pink {
+    background-color: #d16b86 !important;
+}
+
+.w3-pink:hover {
+    background-color: #d16b86 !important;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px #d16b86, inset 0 0 10px #d16b86;
+    }
+
+    50% {
+        box-shadow: 0 0 18px #d16b86, inset 0 0 18px #d16b86;
+    }
+
+    100% {
+        box-shadow: 0 0 10px #d16b86, inset 0 0 10px #d16b86;
+    }
+}
+
+#author {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #d16b86, inset 0 0 10px #d16b86;
+    -webkit-animation: pulse 2s linear 1s infinite;
+    margin-top: 20px;
+}
+.about-me{
+    text-wrap: pretty;
+}
